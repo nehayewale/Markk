@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color:#1d1919!important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+@media screen and (max-width: 768px){
+    .locationCard{
+        float: left!important;
+    } 
+    .card-body.text-right{
+        text-align: left;
+    }
+    .liveRatingCard, h3.header {
+        margin-left: 15px!important;
+        margin-right: 15px!important;
+    }
+    .liveRatingCard .card .img-responsive{
+        width: 100%;
+    }
+    .liveRatingCard .card{
+        margin-bottom: 10px;
+    }
+    .footer .text-right{
+        text-align: left;
+    }
+    .footer ul {
+        padding-left: 0!important;
+        margin-bottom: 10px!important;
+        margin-top: 15px!important;
+    }
+    .container.margin-Top40-Bottom80 .padding-0{
+        padding: 15px;
+    }
+}

@@ -1,0 +1,73 @@
+.liveRatingCard{
+    margin: 0;
+}
+.liveRatingCard .card{
+    border:1px solid #524f4f;
+    border-collapse: collapse;
+    position: relative;
+    height: auto;
+}
+.liveRatingCard .card .img-responsive{
+  opacity: 0.6;
+}
+.liveRatingCard .card header{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.liveRatingCard .card header span{
+    color: #bebcbc;
+}
+.liveRatingCard .card footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;   
+    padding: 10px;
+}
+.profileImg{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border: 1px solid #ffffff;
+    margin-right: 10px;
+}
+.liveRatingCard .card footer h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+.liveRatingCard .card footer p{
+    margin: 0;
+    line-height: 22px;
+    color: #fff;
+    font-size: 15px;
+ }
+ .liveRatingCard .card footer p:last-child{
+    color: #bebcbc;
+ }
+ h3.header{
+     overflow:hidden;
+     text-transform: uppercase;
+     color:#ffffff; 
+     font-size: 18px;
+     margin-bottom: 20px;
+     border: none;
+   }
+   h3.header:after{
+     content:'';
+     display:inline-block;
+     width:100%; height:100%;
+     margin-right:-100%;
+     border-bottom: 1px solid #322e2e;
+     margin-bottom: 7px;
+     margin-left: 10px;
+   }
+  
+ .padding-0{
+     padding: 0;
+ }

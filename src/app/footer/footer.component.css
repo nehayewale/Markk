@@ -1,0 +1,28 @@
+
+.footer{
+    background-color: #282222;
+    border-top:1px solid #3b3636;
+    height: 240px;
+    padding-top: 60px;
+}
+.footer p{
+    color:#8d8989;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer ul{
+    padding-left: 17px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer ul li a{
+    color:#8d8989;
+    font-size: 20px;
+    padding: 5px;
+    white-space: nowrap;
+}

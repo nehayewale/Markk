@@ -1,0 +1,18 @@
+.header{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom:1px solid #3b3636;
+}
+.header-btn{
+    background: transparent;
+    border-radius: 20px;
+    height: 34px;
+    line-height: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+}
